@@ -28,7 +28,6 @@ spec:
       containers:
         - name: eureka
           image: mamoonroshangar/service-registry:latest
-          imagePullPolicy: Always
           ports:
             - containerPort: 8761
           env:
